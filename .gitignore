@@ -1,0 +1,9 @@
+.DS_Store
+UnityTDDExample/.idea/.idea.UnityTDDExample/.idea
+UnityTDDExample/.idea
+UnityTDDExample/Assets/Plugins/Editor/JetBrains
+UnityTDDExample/Library
+UnityTDDExample/Temp
+UnityTDDExample.sln.DotSettings.user
+Assembly-CSharp-Editor.csprojAssemblyReference.cache
+Assembly-CSharp.csprojAssemblyReference.cache
