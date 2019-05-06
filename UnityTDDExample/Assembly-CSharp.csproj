@@ -63,9 +63,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\TriviaGame\Delivery\AnswerView.cs" />
     <Compile Include="Assets\Scripts\TriviaGame\Delivery\TriviaGameView.cs" />
     <Compile Include="Assets\Scripts\TriviaGame\Domain\Question.cs" />
     <Compile Include="Assets\Scripts\TriviaGame\Presentation\TriviaGamePresenter.cs" />
+    <Compile Include="Assets\Scripts\TriviaGame\Presentation\TriviaGamePresenterBuilder.cs" />
+    <Compile Include="Assets\Scripts\TriviaGame\Service\QuestionsService.cs" />
+    <Compile Include="Assets\Scripts\TriviaGame\Service\ServicesProvider.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
