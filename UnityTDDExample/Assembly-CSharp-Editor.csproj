@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Editor\Test\TriviaGame\QuestionTests.cs" />
     <Compile Include="Assets\Editor\Test\TriviaGame\TriviaGamePresenterTests.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/valeria/Desktop/unity-tdd-example/UnityTDDExample/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -682,6 +683,12 @@
     <Reference Include="Boo.Lang">
       <HintPath>/Applications/Unity/Hub/Editor/2018.3.0f2/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{1BF16791-29A2-54C3-F9CE-D4F6D0B1C994}</Project>
+      <Name>Assembly-CSharp</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
