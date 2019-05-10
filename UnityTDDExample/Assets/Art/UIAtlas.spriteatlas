@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UIAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: d61458df1e4e36f419d21bd7ee72b8be, type: 3}
+    totalSpriteSurfaceArea: 1088314
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 28a4ea50bf6a08e408f24b04ef78bd01, type: 3}
+  - {fileID: 21300000, guid: bbbae2d1f82686e49a8f65baab725e55, type: 3}
+  - {fileID: 21300000, guid: 09b07292ece9c124ba66f562b0ed09db, type: 3}
+  - {fileID: 21300000, guid: 5ceb4de2dce175b4da54e82b9b336ec5, type: 3}
+  - {fileID: 21300000, guid: d36dfb9590000f548b9d457db7430f70, type: 3}
+  - {fileID: 21300000, guid: 397cef06d9ef88647b23c1ba172126da, type: 3}
+  - {fileID: 21300000, guid: bb3cf0462f9b9c44fb92df541ded4200, type: 3}
+  - {fileID: 21300000, guid: 06d53ef68c4b8ed45a1a2ec4f90b7d6c, type: 3}
+  - {fileID: 21300000, guid: 95b05f48eea611a4b983a1e9213a3c20, type: 3}
+  - {fileID: 21300000, guid: 581f90fabc4ee2f4fa37d56b3b0e8ed5, type: 3}
+  - {fileID: 21300000, guid: 44549efac417716408b2c0ddd037a814, type: 3}
+  - {fileID: 21300000, guid: 5b67618b4e5552b49b9621370f881d6d, type: 3}
+  - {fileID: 21300000, guid: 689a826e501235e4a8a626c27645fb55, type: 3}
+  - {fileID: 21300000, guid: ec4df38fccb6bc144a9aaaa336632fd8, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Hector
+  - QuestionContainer
+  - ScoreContainer
+  - Tina
+  - AnswerAllContainer
+  - Bonzo
+  - Andy
+  - AnswerContainer
+  - TextContainer
+  - Willy
+  - WinContainer
+  - Tiny
+  - WinGameContainer
+  - BonzoCorrect
+  m_Tag: UIAtlas
+  m_IsVariant: 0
