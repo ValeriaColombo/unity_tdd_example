@@ -22,7 +22,7 @@ namespace TriviaGame.Service
 
         public Question[] GetQuestions(int amount)
         {
-            _allQuestions.Sort((a,b)=> Random.Range(0,2) > 0 ? 1 : -1);
+            _allQuestions.Sort((a,b)=> Random.Range(0,2) == 0 ? 1 : -1);
             return _allQuestions.GetRange(0, amount).ToArray();
         }
     }
